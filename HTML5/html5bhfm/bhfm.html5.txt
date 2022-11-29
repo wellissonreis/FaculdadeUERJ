@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+ <head>
+  <title>HTML5</title>
+  <meta=charset="utf-8">
+  <link href="meu_estilo.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <header><h1>Cidade Maravilhosa</h1></header>
+
+    <nav>
+
+        <ul>
+            <li> <a href="">Sobre o site</a></li>
+            <li> <a href="">Pontos turisticos</a></li>
+            <li> <a href="">Fotos e + fotos</a></li>
+            <li> <a href="">Contatos</a></li>
+            <li> <a href="">Assine</a></li>
+        </ul>
+    </nav>
+
+    <section id="intro"
+     <head>
+      <h2> Voce já visitou o Rio de Janeiro</h2>
+      <p align="justify"> O Rio de Janeiro= é a segunda maior metropole do Brasil, situada no Sudeste do pais. Cidade brasileira mais conhecida no exterior, maior rota do turismo internacional no Brasil e principal destino turistico na America latina e em todo hemiserio sul, a capital fluminense funciona como um "espelho", ou "retrato" nacional, seja postiva ou negativamente. Atualmente, o Rio de Janeiro é a segunda maior cidade maravilhosa, e aquele que nela nasce é chamado carioca. Em 2012, a paisagem urbana da cidade foi considerada patrimonio cultural da humanidade pela UNESCO.
+      </p>
+      <img src="cm01.jpg">
+
+     </head>
+    </section>
+     
+    <div id="content">
+
+    <div id="maincontent">
+
+
+        <section>
+            <article>
+             <h2> Uma mistura do Rio antigo com o Rio do dias atuais</h2>
+             <p> Postando em 23/10/2020 = <a href=""> 3 comentarios </a> </p>
+
+             <p> Paragrafo 1 </p>
+             <p> Paragrafo 2 </p>
+             <p> Paragrafo 3 </p>
+             <img src="cm02.jpg">
+             <p> Paragrafo 4 </p>
+             <p> Paragrafo 5 </p>
+             <p> Paragrafo 6 </p>
+             </article>
+        </section>
+
+        <section id="comments">
+            <h3>comentarios</h3>
+
+            <article>
+                <header>
+                    <a href=""> Fulano um </a> - 02 de Outubro de 2020
+                </header>
+                <p> Essa é a minha opnião </p>
+             </article>
+             
+             <article>
+              <header>
+                <a href=""> Fulano dois </a> - 07 de Outubro de 2020 
+              </header>
+              <p> Essa é a minha opnião </p>
+             </article>
+
+             <article>
+                <header>
+                    <a href=""> Fulanos tres </a> - 13 de Outubro de 2020
+                </header>
+                <p> Esssa é a minha opnião </p>
+             </article>
+
+        </section>
+
+        <section id="envio">
+            <article>
+                <form method="post">
+                    <h3> Deixe o seu comentario</h3> 
+                    <p>
+                        <label for="name"> Nome: </label>
+                        <input name="name" id="name" type="text" required>
+                    </p>
+                
+                <p>
+                    <label for="email"> E-mail: </label>
+                    <input name="name" id="email" type="text" required>
+                </p>
+
+                <p>
+                    <label for="website"> seu site: </label>
+                    <input name="website" id="website" type="text">
+                </p>
+
+                <p>
+                    <label for="comment"> Comentario: </label>
+                    <textarea name="comment" id="comment" required> </textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Enviar comentarios" />
+                </p>
+                </form>
+            </article>
+        </section>
+    </div>
+
+        
+       <aside>
+
+        <section>
+            <h3> Categorias </h3>
+            <ul>
+                <li> <a href=""> Categoria 1 </a>
+                <li> <a href=""> Categoria 2 </a>
+                <li> <a href=""> Categoria 3 </a>
+                <li> <a href=""> Categoria 4 </a>
+                <li> <a href=""> Categoria 5 </a>
+            </ul>
+        </section>
+
+        <section>
+            <h3> Arquivos </h3>
+            <ul>
+                <li> <a href=""> Janeiro de 2020 </a>
+                <li> <a href=""> Fevereiro de2020 </a>
+                <li> <a href=""> Março de 2020 </a>
+                <li> <a href=""> Abril de 2020 </a>
+                <li> <a href=""> Maio de 2020 </a>
+            </ul>
+        </section>
+
+       </aside>
+ 
+       </div>
+
+       <footer>
+        <div>
+            <section id="about">
+                <h3> Sobre </h3>
+                <p> Texto do sobre... </p>
+                </section>
+
+                <section id="links">
+                    <h3> Indicações </h3>
+                    <ul>
+                        <li> <a href=""> Link1 </a>
+                        <li> <a href=""> Link2 </a>
+                        <li> <a href=""> Link3 </a>
+                        <li> <a href=""> Link4 </a>
+                        <li> <a href=""> Link5 </a>
+                    </ul>
+                </section>
+
+                <section id="links">
+                    <h3> Popular </h3>
+                    <ul>
+                        <li> <a href=""> Link1 </a>
+                        <li> <a href=""> Link2 </a>
+                        <li> <a href=""> Link3 </a>
+                        <li> <a href=""> Link4 </a>
+                        <li> <a href=""> Link5 </a>
+                    </ul>
+             </section>
+        </div>
+       </footer>
+ 
+       </body>
+       </html>

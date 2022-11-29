@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <html lang="pt-br">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="form.png">
+    <title>Bem-vindo</title>
+</head>
+
+
+<body>
+    <div style="text-align: center;" >
+  
+        <h1 style="color: rgb(122, 159, 194);">SELECIONE UMA DAS OPÇÕES ABAIXO: </h1>
+        <input type="text" name="blur" id="blur" onblur="FuncaoBlur()" placeholder="Informe o seu nome" >
+    <br><br>
+
+    <select id="opcao" onchange="FuncaoOnChange()">
+        <option value="Sistema Operacional"> Sistema Operacional
+        <option value="Programação JAVA"> Programação JAVA
+        <option value="Desenvolvimento Web"> Desenvolvimento Web
+        <option value="Desenvolvimento Android"> Desenvolvimento em Android
+    </select>
+  
+    <p id="texto_aqui"></p>
+    <br><br>
+    
+    
+    <input type="text" id="focus" onfocus="FuncaoFocus(this.id)" placeholder="Deixe seu comentário" />
+    <br><br><br>
+    
+    <button onClick="ParaCINZA()"> Mudar a cor de fundo da página para "CINZA"</button>
+    <br><br>
+    <button onClick="ParaBRANCO()"> Mudar a cor de fundo da página para "BRANCO"</button>
+</div>
+<script type="text/javascript">
+
+    function ParaCINZA() {
+        document.body.style.background = "GRAY"; 
+    }
+
+    function ParaBRANCO() {
+        document.body.style.background = "WHITE"; 
+    }
+          
+    function FuncaoFocus(x) {
+    document.getElementById(x).style.background = "YELLOW"; 
+
+}
+         function FuncaoOnChange() {
+           let x = document.getElementById("opcao").value;
+           document.getElementById("texto_aqui").innerHTML = "Você selecionou: " + x;
+        }
+        function FuncaoBlur() {
+              let x = document.getElementById("blur");
+              x.value = x.value.toUpperCase(); 
+          }
+</script>
+
+    </html>
+</body>
